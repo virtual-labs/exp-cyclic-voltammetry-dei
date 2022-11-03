@@ -20,24 +20,30 @@
 ●	Then note the time you ceased the process of electrolysis.
 
 Measure the following:-
-	The volume of H2 collected.
-	The height of the water column in mm in the burette.
-	The temperature of the acid solution.
-	The Barometric pressure.
-	The vapor pressure of water at the solution temperature.
 
-	Note the following:
+The volume of H2 collected.
 
-    P<sub>H2</sub> = P <sub>Barometric</sub>  -P <sub>H20 column</sub> - P <sub>H20 Vapour</sub>
+The height of the water column in mm in the burette.
+
+The temperature of the acid solution.
+
+The Barometric pressure.
+
+The vapor pressure of water at the solution temperature.
+
+Note the following:
+
+P<sub>H2</sub> = P <sub>Barometric</sub>  -P <sub>H20 column</sub> - P <sub>H20 Vapour</sub>
 	
-    P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H<sub>2</sub>O)
-                 = (height of H<sub>2</sub>O in mm) × 9.81 Pa
+P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H<sub>2</sub>O)= (height of H<sub>2</sub>O in mm) × 9.81 Pa
 
 
 Precautions:- 
 
-	The entire bare part of the wire should be inside the burette; otherwise, some of the H2 generated will not be collected in the burette.
-	To calculate the volume, the top of the solution in the burette should be within the graduated region of the burette.
-	Electrodes should remain static during the process of electrolysis.
+The entire bare part of the wire should be inside the burette; otherwise, some of the H2 generated will not be collected in the burette.
+
+To calculate the volume, the top of the solution in the burette should be within the graduated region of the burette.
+
+Electrodes should remain static during the process of electrolysis.
 
 
