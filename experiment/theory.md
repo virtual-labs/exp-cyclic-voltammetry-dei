@@ -10,7 +10,7 @@ Here, Q is in Columbus when I is in ampere and t is in second.
 1C = 1A × 1s
 We can measure the charge on the electron in coulombs and it is equal to 1.60 × 10-19 C.
 
-2H<sup>+</sup><sub>(aq)</sub>  + 2e<sup>-</sup>  → H<sub>2(g)</sub>  or  1H<sup>+</sup><sub>(aq)</sub>  + 1e<sup>-</sup> → 1/2H<sub>2(g)</sub>
+2H<sup>+</sup><sub>(aq)</sub>  + 2e<sup>-</sup>  → H<sub>2(g)</sub>  or  1H<sup>+</sup><sub>(aq)</sub>  + 1e<sup>-</sup> → 1/2H<sub>2(g)</sub>.
 
 
 The above equation represents that 1 hydrogen ion reduced for every electron passed through the solution and that one molecule of H2 produced for every 2 electrons. The charge passed through the electrolytic cell during electrolysis equals the product of current in amperes and time in seconds. The product of electrolysis depends on the following factors:
