@@ -19,7 +19,7 @@
 
 ●	Then note the time you ceased the process of electrolysis.
 
-	Measure the following:-
+Measure the following:-
 	The volume of H2 collected.
 	The height of the water column in mm in the burette.
 	The temperature of the acid solution.
@@ -28,8 +28,9 @@
 
 	Note the following:
 
-                                           P<sub>H2</sub> = P <sub>Barometric</sub>  -P <sub>H20 column</sub> - P <sub>H20 Vapour</sub>
-                     P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H<sub>2</sub>O)
+    P<sub>H2</sub> = P <sub>Barometric</sub>  -P <sub>H20 column</sub> - P <sub>H20 Vapour</sub>
+	
+    P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H<sub>2</sub>O)
                  = (height of H<sub>2</sub>O in mm) × 9.81 Pa
 
 
