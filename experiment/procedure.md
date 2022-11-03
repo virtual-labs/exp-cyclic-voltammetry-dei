@@ -38,7 +38,7 @@ P<sub>H2</sub> = P <sub>Barometric</sub>  -P <sub>H20 column</sub> - P <sub>H20 
 P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H<sub>2</sub>O)= (height of H<sub>2</sub>O in mm) × 9.81 Pa
 
 
-##Precautions:- 
+## Precautions:- 
 
 The entire bare part of the wire should be inside the burette; otherwise, some of the H2 generated will not be collected in the burette.
 
