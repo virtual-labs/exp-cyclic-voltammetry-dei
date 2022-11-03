@@ -53,7 +53,7 @@
                 "c": "Speed of the cation",
                 "d": "Atomic number of cation"
             },
-            "correctAnswer": "A"
+            "correctAnswer": "a"
         }, {
             "question": "Q7.Which of the following is not an application of electrolysis?",
             "answers": {
@@ -71,7 +71,7 @@
                 "c": "Electrons constant",
                 "d": "None of the above"
             },
-            "correctAnswer": "A"
+            "correctAnswer": "a"
         
         }
     ]
