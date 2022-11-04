@@ -1,2 +1,2 @@
-## Electrolysis:Faraday Constant & Avogadro Number.
+## Electrolysis: Faraday Constant & Avogadro Number.
 
