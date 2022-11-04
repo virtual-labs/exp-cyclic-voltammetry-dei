@@ -1,4 +1,5 @@
-### Procedure
+## Procedure:
+
 ●	Assemble the apparatus and get a DC source with an attached ammeter.
 
 ●	Take a 250mL beaker and add 100mL of distilled water.
@@ -19,7 +20,7 @@
 
 ●	Then note the time you ceased the process of electrolysis.
 
-Measure the following:-
+## Measure the following:
 
 The volume of H2 collected.
 

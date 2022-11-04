@@ -1,4 +1,5 @@
-### Theory
+## Theory:
+
 In this experiment, the value of faraday is determined by measuring the amount of charge required to reduce 1 mol of H+ ions, regarding the following reaction.
 2H<sup>+</sup><sub>(aq)</sub>  + 2e<sup>-</sup>  → H<sub>2(g)</sub>  or  1H<sup>+</sup><sub>(aq)</sub>  + 1e<sup>-</sup> → 1/2H<sub>2(g)</sub>.
 
