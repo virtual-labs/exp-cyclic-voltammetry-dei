@@ -1,10 +1,10 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Chemical Binding(Chemistry)
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Electroanalytical Virtual Laboratory
+<b> Experiment|     <b> Electrolysis: Faraday Constant & Avogadro Number.
 
 ### About the Experiment 
 
