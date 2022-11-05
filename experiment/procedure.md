@@ -1,5 +1,3 @@
-## Procedure:
-
 ●	Assemble the apparatus and get a DC source with an attached ammeter.
 
 ●	Take a 250mL beaker and add 100mL of distilled water.
