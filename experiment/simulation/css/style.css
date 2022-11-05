@@ -390,21 +390,20 @@ padding: 10px;
     color: #c4c3c8;
 
 }
-#rank1{
-
-    position: absolute;
-    left: 45%;
-     top: 24%;
-    color: #c4c3c8;
-
+#rank1 {
+  position: absolute;
+  left: 59%;
+  top: 55%;
+  color: #fff;
+  font-size: 14px;
 }
-#off{ 
-left: 676px;
-position: absolute;
-top: 383px;
-cursor: pointer;
-width: 66px;
-height: 25px;
+#off {
+  left: 65%;
+  position: absolute;
+  top: 68%;
+  cursor: pointer;
+  width: 66px;
+  height: 25px;
 }
 .blink{text-decoration: none;
   font-size: 20px;
