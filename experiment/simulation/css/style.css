@@ -392,13 +392,13 @@ padding: 10px;
 }
 #rank1 {
   position: absolute;
-  left: 59%;
+  left: 57%;
   top: 55%;
   color: #fff;
   font-size: 14px;
 }
 #off {
-  left: 65%;
+  left: 60%;
   position: absolute;
   top: 68%;
   cursor: pointer;
