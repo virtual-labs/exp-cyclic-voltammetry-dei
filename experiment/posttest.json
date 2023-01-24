@@ -1,39 +1,78 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "version": 2.0,
+    "questions": [{
+            "question": "Q1.In electrolysis of dilute H2SO4, what is liberated at the anode: ",
+            "answers": {
+                "a": "H<sub>2</sub>",
+                "b": "SO<sup>2-</sup><sub>4</sub>",
+                "c": "SO<sub>2</sub>",
+                "d": "O<sub>2</sub>"
+            },
+            "correctAnswer": "d"
+        }, {
+            "question": "Q2.If the current in an electric conductor is 2.4 A, how many coulombs of charge pass any point in a 30-second interval?",
+            "answers": {
+                "a": "72C",
+                "b": "70C",
+                "c": "80C",
+                "d": "68C"
+            },
+            "correctAnswer": "a"
+        }, {
+            "question": "Q3.Laws of electrolysis were given by:",
+            "answers": {
+                "a": "Lanmark",
+                "b": "Ostwald",
+                "c": "Faraday",
+                "d": "Arrhenius"
+            },
+            "correctAnswer": "c"
+        }, {
+            "question": "Q4.When 1 coulomb of charge is passed through electrolyte solution, then the mass deposited is equal to ______________",
+            "answers": {
+                "a": "Equivalent weight",
+                "b": "Atomic weight",
+                "c": "Electrochemical equivalent",
+                "d": "Chemical equivalent"
+            },
+            "correctAnswer": "c"
+        }, {
+            "question": "Q5.What is__________",
+            "answers": {
+                "a": "Strong electrolyte",
+                "b": "Weak electrolyte",
+                "c": "Non-electrolyte",
+                "d": "None of these"
+            },
+            "correctAnswer": "b"
+        }, {
+            "question": "Q6.The solution of a substance which conducts electricity is called____________",
+            "answers": {
+                "a": "An electrolyte",
+                "b": "An insulator",
+                "c": "A conductor",
+                "d": "None of these"
+            },
+            "correctAnswer": "a"
+        }, {
+            "question": "Q7.The mass of 1 mole of the water molecule is",
+            "answers": {
+                "a": "22g",
+                "b": "28g",
+                "c": "16g",
+                "d": "18g"
+            },
+            "correctAnswer": "d"
+        }, {
+            "question": "Q8. The compound generally used for electrolysis should be a:",
+            "answers": {
+                "a": "Insulator",
+                "b": "Conductor",
+                "c": "Metalloid",
+                "d": "All of them"
+            },
+            "correctAnswer": "b"
+        
+        }
+    ]
 }
