@@ -22,4 +22,4 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 |Dr. Sachin saxena . |Faculty . |Chemistry . |Dayalbagh Educational Institute. |sachinusic@gmail.com
 2 |Dr. Yogita Singhal . |Faculty . | Chemistry. |Dayalbagh Educational Institute. |yogitasinghal342@gmail.com
-3 |Dinesh Kumar Verma . |Project Associate . |Chemistry . |Dayalbagh Educational Institute. |evlabdei@gmail
+3 |Dinesh Kumar Verma . |Project Associate . |Chemistry . |Dayalbagh Educational Institute. |evlabdei@gmail.com
