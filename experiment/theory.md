@@ -16,11 +16,16 @@ We can measure the charge on the electron in coulombs and it is equal to 1.60 ×
 2H<sup>+</sup><sub>(aq)</sub>  + 2e<sup>-</sup>  → H<sub>2(g)</sub>  or  1H<sup>+</sup><sub>(aq)</sub>  + 1e<sup>-</sup> → 1/2H<sub>2(g)</sub>.
 
 
-The above equation represents that 1 hydrogen ion reduced for every electron passed through the solution and that one molecule of H2 produced for every 2 electrons. The charge passed through the electrolytic cell during electrolysis equals the product of current in amperes and time in seconds. The product of electrolysis depends on the following factors:
+The above equation represents that 1 hydrogen ion reduced for every electron passed through the solution and that one molecule of H<sub>2</sub> produced for every 2 electrons. The charge passed through the electrolytic cell during electrolysis equals the product of current in amperes and time in seconds. The product of electrolysis depends on the following factors:
 
-Nature of the materials being electrolysed.
-Types of electrodes being used.
-Kinetic barrier and over voltage.
-Cathodic reactions.
-Anodic Reactions.
-Unexpected products because of overvoltage.
+1. Nature of the materials being electrolysed.
+<br>
+2. Types of electrodes being used.
+<br>
+3. Kinetic barrier and over voltage.
+<br>
+a. Cathodic reactions.
+<br>
+b. Anodic Reactions.
+<br>
+c. Unexpected products because of overvoltage.
