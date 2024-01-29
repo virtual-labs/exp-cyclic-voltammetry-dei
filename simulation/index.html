@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Virtual Labs Dei-Electroanalytical Virtual Laboratory</title>
+	<script src="js/jquery-3.6.0.min.js"></script>      
+
+<script>
+$(document).ready(function(){
+         $('#cuso41n').attr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#voltametern').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		 
+    $('#cuso41n').click(function(){
+    	var cuso41value = $(this).val();
+		
+		$(".followstep1").removeClass("active");
+		$(".followstep2").addClass("active");
+        $("#step3").hide();
+        $("#step2").show();
+		 $('#cuso41n').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#saltbridagen').removeAttr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#voltametern').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		$("#step2img").attr("src","images/step2.gif");
+		setTimeout(function() {
+		$("#saltbridage").show();
+    
+             //$("#step2img").attr("src","assets/img/step2f.png");
+			  
+            }, 10000);
+	
+    });
+	$('#cu1n').click(function(){
+	
+    	var cuso41value = $(this).val(); 
+		
+		$(".followstep2").removeClass("active");
+		$(".followstep3").addClass("active");
+        $("#step1").hide();
+        $("#step2").hide();
+		 $("#step3").show();
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#cuso41n').removeAttr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#voltametern').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		 
+		$("#step3img").attr("src","images/step1.gif");
+		setTimeout(function() {
+		
+    $("#cu1").show();
+            // $("#step3img").attr("src","assets/img/step1f.png");
+            }, 15000);
+
+    });
+	$("#saltbridagen").click(function(){
+    	$(".followstep3").removeClass("active");
+		$(".followstep4").addClass("active");
+        $("#step1").hide();
+        $("#step2").hide();
+		$("#step3").hide();
+		$("#step4").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#rodn').removeAttr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#voltametern').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		$("#step4img").attr("src","images/step3.gif");
+		
+      $("#rod").show();
+             //$("#step4img").attr("src","assets/img/step4f.png");
+         
+    });
+	$("#rodn").click(function(){
+    	$(".followstep4").removeClass("active");
+		$(".followstep5").addClass("active");
+        $("#step1").hide();
+        $("#step2").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#voltametern').removeAttr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		$("#step5img").attr("src","images/step4.gif");
+		setTimeout(function() {
+    $("#voltameter").show();
+            // $("#step5img").attr("src","assets/img/step5f.png");
+            }, 8000);
+    });
+		$("#rodn1").click(function(){
+    	$(".followstep4").removeClass("active");
+		$(".followstep5").addClass("active");
+        $("#step1").hide();
+        $("#step2").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#voltametern').removeAttr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		$("#step5img").attr("src","images/step5.gif");
+		setTimeout(function() {
+		 $("#voltameter").text("Step6: Connect the DC source.");
+    $("#voltameter").show();
+            // $("#step5img").attr("src","assets/img/step5f.png");
+            }, 6000);
+    });
+	$("#voltametern").click(function(){
+	
+    	$(".followstep5").removeClass("active");
+		$(".followstep6").addClass("active"); 
+        $("#step1").hide();
+        $("#step2").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").hide();
+		$("#step6").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#cuso41nao').removeAttr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#voltametern').attr('disabled', 'disabled');
+		$("#step6img").attr("src","images/step6.gif");
+		setTimeout(function() {
+		
+    $("#onvoltameter").show();
+            // $("#step5img").attr("src","assets/img/step5f.png");
+            }, 6000);
+		
+		    
+    });
+	$("#off").click(function(){
+	$("#rank1").show();
+	$('#firsttbl').show();
+	$('#success1').show();
+	 $("#success1").text("Step7: Working....");
+	 setTimeout(function() {
+		        $("#rank1").text("0.34");
+		   }, 1000);
+		    setTimeout(function() {
+		        $("#rank1").text("0.46");
+		   }, 10000);
+		    setTimeout(function() {
+		        $("#rank1").text("0.45");
+		   }, 20000);
+		    setTimeout(function() {
+		        $("#rank1").text("0.45");
+		   }, 35000);
+		    setTimeout(function() {
+		        $("#rank1").text("0.45");
+		   }, 50000);
+		    setTimeout(function() {
+		        $("#rank1").text("0.44");
+		   }, 60000);
+    	$(".followstep5").removeClass("active");
+		$(".followstep6").addClass("active"); 
+        $("#step1").hide();
+        $("#step2").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").hide();
+		$("#step6").hide();
+		$("#step7").hide();
+		$("#step8").show();
+		 $('#cuso41n').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#voltametern').attr('disabled', 'disabled');
+		//$("#step8img").css("padding", "6px 10px");
+		$("#step8img").attr("src","images/step7.gif");
+		  setTimeout(function() {
+		  $("#rank1").css("top", "53%");
+		       $('#secondtbl').show();
+			    $("#success1").text("Step7: Experiment has been done.");
+		   }, 40000);
+		
+    });
+
+	$("#resetn").click(function(){
+    	  $("#rank1").css("top", "55%");
+		   $('#firsttbl').hide();
+		    $('#secondtbl').hide();
+        $("#step2").hide();
+        $("#step7").hide();
+		$("#rank").hide();
+		$("#rank1").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").hide();
+		$("#step6").hide();
+		$("#step8").hide();
+		$("#success").hide();
+		$("#step1").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#voltametern').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+        $('#cu1n').removeAttr('disabled', 'disabled');
+    });
+	$(".max").click(function(){
+   $('#firsttbl').hide();
+		    $('#secondtbl').hide();
+        $("#header").hide();
+		$("#rank").hide();
+		
+        $("#navigation-bar").hide();
+		$("#navbar").hide();
+		 $("#head_area").hide();
+		$(".navigation-bar").hide();
+		$(".max").hide();
+		$(".rightsidebarn").hide();
+		$(".rightsidebar").show();
+		$("#cuso41").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#voltametern').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+        $('#cu1n').removeAttr('disabled', 'disabled');
+		$("#main-sec").css("width", "100%");
+		$(".des").css("width", "77%");
+		$(".des").css("text-align", "center");
+		$("#step2").hide();
+        $("#step7").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").hide();
+		$("#step6").hide();
+		$("#step8").hide();
+		$("#success").hide();
+
+
+    });
+	$("#skip").click(function(){
+  $("#rank1").css("top", "55%");
+    $('#firsttbl').hide();
+		    $('#secondtbl').hide();
+       $("#head_area").show();
+        $("#header").show();
+		$("#rank").hide();
+		$("#rank1").hide();
+        $("#navigation-bar").show();
+		$("#navbar").show();
+		$(".navigation-bar").show();
+		$(".max").show();
+		$(".rightsidebarn").show();
+		$(".rightsidebar").hide();
+		$("#main-sec").css("width", "");
+		$(".des").css("width", "");
+		$(".des").css("text-align", "center");
+		$("#step1").show();
+		$("#step2").hide();
+        $("#step7").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").hide();
+		$("#step6").hide();
+		$("#step8").hide();
+		$("#success").hide();
+
+
+    });
+});
+</script> 
+</head>
+<body>
+	
+	<section class="csection" id="csec">
+		<nav class="side-nav" id="navbar">
+		<div class="nav-element">
+			<a href="index.html " ><span class="cp">Aim</span></a>
+		</div>
+		<div class="nav-element">
+			<a href="theory.html" >Theory</a>
+		</div>
+		<div class="nav-element">
+			<a href="objective.html" >Objective</a>
+		</div>
+		<div class="nav-element">
+			<a href="pretest.html" >Pretest</a>
+		</div>
+		<div class="nav-element">
+			<a href="procedure.html" >Procedure</a>
+		</div>
+		<div class="nav-element">
+			<a href="index.html" >Simulation</a>
+		</div>
+		<div class="nav-element">
+			<a href="posttest.html" >Posttest</a>
+		</div>
+		<div class="nav-element">
+			<a href="references.html" >References</a>
+		</div>
+		<div class="nav-element">
+			<a href="feedback.html" >Feedback</a>
+		</div>
+		</nav>
+		<main class="main-section" id="main-sec">
+		<div class="heading" id="head_area">
+			<h1>Exp2. Electrolysis: Faraday Constant & Avogadro Number.</h1>
+		</div>
+		<div  class="des" id="des">
+		<div  style="float: left;text-align:left;">
+		 <table cellpadding="2" cellspacing="2" border="2" id="firsttbl" style="display:none;">
+		     <tr><td>Voltage</td><td>4V</td></tr>
+			 <tr><td>Time</td><td>6 mins(360s)</td></tr>
+			 <tr><td>Temperature</td><td>26.7°C</td></tr>
+			 <tr><td>Intial Volume</td><td>47.6 cm3</td></tr>
+			 <tr><td>Final Volume</td><td>26.8 cm3</td></tr>
+		</table>
+		<table  cellpadding="2" cellspacing="2" border="2" id="secondtbl" style="display:none;width: 206px;margin-top: 10px;">
+		     <tr><th>Interval</th><th>Amperes</th></tr>
+			 <tr><td>1</td><td>0.340</td></tr>
+			 <tr><td>2</td><td>0.464</td></tr>
+			 <tr><td>3</td><td>0.458</td></tr>
+			 <tr><td>4</td><td>0.457</td></tr>
+			 <tr><td>5</td><td>0.452</td></tr>
+			 <tr><td>6</td><td>0.442</td></tr>
+			 <tr><td>7</td><td>0.431</td></tr>
+			 <tr><td>8</td><td>0.444</td></tr>
+			 <tr><td>9</td><td>0.450</td></tr>
+			 <tr><td>10</td><td>0.359</td></tr>
+			 <tr><td>11</td><td>0.366</td></tr>
+			 <tr><td>12</td><td>0.382</td></tr>
+			 <tr><td>13</td><td>0.393</td></tr>
+			 <tr><td>14</td><td>0.384</td></tr>
+			 <tr><td>15</td><td>0.388</td></tr>
+		</table>
+		</div>
+		    <!-- Begin step1-->
+			 <div id="step1">
+	
+                 <a href="javascript:void(0);" class="blink" id="cuso41" style="display:none;">Step1: Prepare the <strong>H<sub>2</sub>SO<sub>4</sub></strong> Solution.</a>
+				
+				<div id="rightsidebarn" class="rightsidebarn">
+						<a href="javascript:void(0);" class="max" >Maximize The Window</a>
+						
+						</div>	
+				
+				<p>
+				<img src="images/step0.gif" style="width:640px;height:480px;">
+				</p>
+			 </div>
+			 <!-- End step1-->
+			 <!-- Begin step2-->
+			 <div id="step2" style="display:none;">
+			
+				<a href="javascript:void(0);" id="saltbridage" style="display:none;" class="blink">Step3: Insert the in Burette in Beaker. </a>
+
+			 
+				<p>
+				<img src=""  id="step2img" style="width:640px;height:480px;">
+				</p>
+			 </div>
+			 <!-- End step2-->
+			  <!-- Begin step3-->
+			 <div id="step3" style="display:none;">
+			   <a href="javascript:void(0);" class="blink" id="cu1" style="display:none;">Step2: Pour the 3M- <strong>H<sub>2</sub>SO<sub>4</sub></strong> Solution in Burette.</a>
+				
+				<p>
+				<img src="" id="step3img" style="width:640px;height:480px;">
+				</p>
+			 </div>
+			 <!-- End step3-->
+			  <!-- Begin step4-->
+			 <div id="step4" style="display:none;">
+			
+				<a href="javascript:void(0);" id="rod" class="blink" style="display:none;">Step4: Connect the Cathode(-) wire of Ammeter.</a>
+				<p>
+				<img src=""  id="step4img" style="width:640px;height:480px;">
+				</p>
+			 </div>
+			 <!-- End step4-->
+			  <!-- Begin step5-->
+			 <div id="step5" style="display:none;">
+			
+				<a href="javascript:void(0);" id="voltameter" class="blink" style="display:none;">Step5: Connect the Anode(+) wire of Ammeter.</a>
+				<p>
+				<img src=""  id="step5img" style="width:640px;height:480px;">
+				</p>
+			 </div>
+			 <!-- End step5-->
+			   <!-- Begin step6-->
+			 <div id="step6" style="display:none;">
+			
+				<a href="javascript:void(0);" id="onvoltameter" class="blink" style="display:none;">Step6: Please Switch On.</a>
+				<p>
+				<span id="off"></span><img src=""  id="step6img" style="width:640px;height:480px;">
+				</p>
+			 </div>
+			 <!-- End step6-->
+			   <!-- Begin step7-->
+			 <div id="step7" style="display:none;">
+			
+			    <a href="javascript:void(0);" id="onvoltameter1" class="blink">Working....</a> <span id="success" style="display:none;" class="blink">Step7: Procedure for part A add Na<sub>2</sub>S solution in Beaker-B</span>
+				<p>
+				<span id="rank"></span>
+				<img src=""  id="step7img" style="width:640px;height:480px;">
+				</p>
+			 </div>
+			 <!-- End step7-->
+		        <!-- Begin step8-->
+			 <div id="step8" style="display:none;">
+			
+			    <a href="javascript:void(0);" id="onvoltameter2" class="blink"></a> <span id="success1" style="display:none;" class="blink">Thanks Experiment has been done. !</span>
+				<p>
+				<span id="rank1"></span>
+				<img src=""  id="step8img" style="width:640px;height:480px;">
+				</p>
+			 </div>
+			 <!-- End step8-->
+		</div>
+		<div id="rightsidebar" class="rightsidebar" style="display:none;">
+			<a href="javascript:void(0);" id="skip">Skip Full Screen</a><a href="javascript:void(0);" id="resetn">Reset</a>
+			
+			<a href="javascript:void(0);" id="cu1n"><img src="images/BtnH2SO4.jpg"></a>
+			<a href="javascript:void(0);" id="cuso41n"><img src="images/btnburette.jpg"></a>
+			<a href="javascript:void(0);" id="saltbridagen"><img src="images/btnburetteinbeaker.jpg" ></a>
+			<a href="javascript:void(0);" id="rodn"><img src="images/btncathode.jpg"></a>
+			<a href="javascript:void(0);" id="rodn1"><img src="images/btnanode.jpg"></a>
+			<a href="javascript:void(0);" id="voltametern"><img src="images/btndcsource.jpg"></a>
+			
+			
+		</div>
+		</main>
+		
+		
+	</section>
+		<footer >
+            <div class="foot1">
+                <div class="fheading">
+                    <h4>Community Links</h4>
+                </div>
+                <div class="fdes">
+                    <a href="https://sakshat.ac.in/">Sakshat Portal</a>
+                    <a href="http://outreach.vlabs.ac.in/">Outreach Portal</a>
+                    <a href="https://www.vlab.co.in/faq">FAQ: Virtual Labs</a>
+                </div>
+            </div>
+                <div class="foot2">
+                <div class="fheading">
+                    <h4>Contact us</h4>
+                </div>
+                <div class="fdes">
+                    <p>Phone: General Information:</p>
+                    <p >011-26582050</p>
+                    <p>Email: support@vlabs.ac.in</p>
+                </div>
+                </div>
+                <div class="foot3">
+                <div class="fheading">
+                    <h4>Follow Us</h4>
+                </div>
+                <div class="fdes desm">
+                    <a href="" class="sm" style="background:#fff;margin:15px 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25.2" height="25.2" fill="#3B5998" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/TheVirtualLabs" class="sm" style="background:#55acee ;margin:15px 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16" style="position: relative; left: 4px; top:5px;">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                    </a>
+                    <a href="" class="sm" style="background:#e52d27;margin:15px 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16" style="position: relative; left: 4px; top:5px;">
+                         <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                        </svg>
+                    </a>
+                    <a href="https://in.linkedin.com/in/virtual-labs-008ba9136" class="sm" style="background:#2867B2; margin:15px 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-linkedin" viewBox="0 0 16 16" style="position: relative; left: 5px; top:5px;">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                    </a>
+                </div>
+                    </div>
+                    <div class="endfoot">
+                        <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL 3.0</a>  &  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons (CC BY-NC-SA 4.0)</a>
+                    </div>
+        </footer>
+	
+<script src="../assets/js/iframeResize.js"></script></body>
+</html>

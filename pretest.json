@@ -1,0 +1,78 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "Q1.The value of Faraday’s constant is: ",
+            "answers": {
+                "a": "96488 C mol<sup>-1</sup>",
+                "b": "96588 C mol<sup>-1</sup>",
+                "c": "96489 C mol<sup>-1</sup>",
+                "d": "96587 C mol<sup>-1</sup>"
+            },
+            "correctAnswer": "a"
+        }, {
+            "question": "Q2.The number of atoms or molecules present in 1 molar mass of an entity is known as _____________",
+            "answers": {
+                "a": "Bohr number",
+                "b": "Mass number",
+                "c": "Avogadro’s number",
+                "d": "Atomic number"
+            },
+            "correctAnswer": "c"
+        }, {
+            "question": "Q3.The volume occupied by a unit mol of gas is called as ________________",
+            "answers": {
+                "a": "Molecular volume",
+                "b": "Mol volume",
+                "c": "Molar volume",
+                "d": "None of the above"
+            },
+            "correctAnswer": "c"
+        }, {
+            "question": "Q4. According to Faraday’s first law of electrolysis, the amount of any substance deposited at the electrode is directly proportional to the quantity of:",
+            "answers": {
+                "a": "Voltage drop",
+                "b": "Resistance",
+                "c": "Electricity passed",
+                "d": "Tolerance"
+            },
+            "correctAnswer": "c"
+        }, {
+            "question": "Q5.Gases of the same volume contain the same number of molecules. This is the description of :",
+            "answers": {
+                "a": "Boyle’s law",
+                "b": "Dalton’s law",
+                "c": "Charles’ law",
+                "d": "Avogadro’s law"
+            },
+            "correctAnswer": "d"
+        }, {
+            "question": "Q6.Faraday’s law of electrolysis is related to ______________ ?",
+            "answers": {
+                "a": "Equivalent weight of the electrolyte",
+                "b": "Atomic number of anion",
+                "c": "Speed of the cation",
+                "d": "Atomic number of cation"
+            },
+            "correctAnswer": "a"
+        }, {
+            "question": "Q7.Which of the following is not an application of electrolysis?",
+            "answers": {
+                "a": "Refining of metals",
+                "b": "Electroplating",
+                "c": "Electro-Deposition",
+                "d": "Synthesizing leather"
+            },
+            "correctAnswer": "d"
+        }, {
+            "question": "Q8.The current flow through the electrolyte is because of the movement of ________",
+            "answers": {
+                "a": " Ions",
+                "b": "Holes",
+                "c": "Electrons",
+                "d": "None of the above"
+            },
+            "correctAnswer": "a"
+        
+        }
+    ]
+}
